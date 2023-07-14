@@ -16,16 +16,16 @@ To install this application, you need to have Rust installed on your machine. If
 
 Clone the repository:
 
-\```bash
+```bash
 git clone https://github.com/yourusername/todolist.git
 cd todolist
-\```
+```
 
 Then, build the application using `cargo`:
 
-\```bash
+```bash
 cargo build --release
-\```
+```
 
 The executable will be in the `./target/release/` directory.
 
@@ -33,39 +33,39 @@ The executable will be in the `./target/release/` directory.
 
 ### Add a task
 
-\```bash
+```bash
 cargo run -- add "Buy milk"
-\```
+```
 
 The application will confirm that the task has been added:
 
-\```bash
+```bash
 Added task 1: Buy milk
-\```
+```
 
 ### Complete a task
 
-\```bash
+```bash
 cargo run -- complete 1
-\```
+```
 
 The application will confirm that the task has been completed:
 
-\```bash
+```bash
 Completed task 1: Buy milk
-\```
+```
 
 ### List all tasks
 
-\```bash
+```bash
 cargo run -- list
-\```
+```
 
 The application will list all tasks:
 
-\```bash
+```bash
 1: Buy milk
-\```
+```
 
 ## Contributing
 

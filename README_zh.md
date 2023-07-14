@@ -17,16 +17,16 @@
 
 克隆仓库：
 
-\```bash
+```bash
 git clone https://github.com/yourusername/todolist.git
 cd todolist
-\```
+```
 
 然后，使用 `cargo` 构建应用程序：
 
-\```bash
+```bash
 cargo build --release
-\```
+```
 
 可执行文件将位于 `./target/release/` 目录中。
 
@@ -34,39 +34,39 @@ cargo build --release
 
 ### 添加任务
 
-\```bash
+```bash
 cargo run -- add "买牛奶"
-\```
+```
 
 应用程序将确认任务已经被添加：
 
-\```bash
+```bash
 已添加任务 1：买牛奶
-\```
+```
 
 ### 完成任务
 
-\```bash
+```bash
 cargo run -- complete 1
-\```
+```
 
 应用程序将确认任务已经完成：
 
-\```bash
+```bash
 已完成任务 1：买牛奶
-\```
+```
 
 ### 列出所有任务
 
-\```bash
+```bash
 cargo run -- list
-\```
+```
 
 应用程序将列出所有任务：
 
-\```bash
+```bash
 1：买牛奶
-\```
+```
 
 ## 贡献
 
